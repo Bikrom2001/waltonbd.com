@@ -1,0 +1,112 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+
+    .middle-content{
+        position: relative;
+        padding: 0% 0% 0 5%;
+        text-align: center;
+    }
+    .single-block-subheading{
+        font-size: 1.6rem;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+        color: #333;
+    }
+    .single-block-heading{
+        font-size: 35px;
+        font-weight: 700;
+        color: #333;
+        margin: 0 0;
+        margin-bottom: 0.5rem;
+        line-height: 1.2;
+    }
+    .single-block-content{
+        font-size: 18px;
+        text-align: center;
+    }
+    .single-block-subheading-re {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .middle-content{
+        position: relative;
+        padding: 0% 0% 0 5%;
+        text-align: center;
+    }
+    .single-block-subheading{
+        font-size: 1.6rem;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+        color: #333;
+    }
+    .single-block-heading{
+        font-size: 35px;
+        font-weight: 700;
+        color: #333;
+        margin: 0 0;
+        margin-bottom: 0.5rem;
+        line-height: 1.2;
+    }
+    .single-block-content{
+        font-size: 18px;
+        text-align: center;
+    }
+    .single-block-subheading-re {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .middle-content{
+        position: relative;
+        padding: 10% 5% 0 10%;
+    }
+    
+    .single-block-subheading{
+        font-size: 1.7rem;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+        color: #333;
+    }
+    .single-block-heading{
+        font-size: 30px;
+        font-weight: 700;
+        color: #333;
+        margin: 0 0;
+        margin-bottom: 0.5rem;
+        line-height: 1.2;
+    }
+    .single-block-content{
+        font-size: 18px;
+        text-align: justify;
+    }
+    .single-block-subheading-re {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+}

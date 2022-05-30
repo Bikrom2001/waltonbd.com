@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 25px;
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* header secation nav bar  left part */
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #23a3dd!important;
+    font-weight: 700;
+}
+
+/* header secation nav bar  Right part  */
+.search-icons {
+    padding-right: 31px !important;
+    padding-left: 25px !important;
+}
+
+/* silder home */
+
+#slider-home{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+/* second section background image */
+.middle-content{
+    position: relative;
+    padding: 25% 5% 0 10%;
+}
+.single-block-subheading{
+    font-size: 1.9rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #333;
+}
+.single-block-heading{
+    font-size: 50px;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+.single-block-content{
+    font-size: 20px;
+    text-align: justify;
+}
+/*  Laptop background image sections 05 */
+
+/* Revolution phone sections 06 */
+.single-block-subheading-re {
+    font-size: 35px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Microwave oven secations 09 */
+
+/* Top- Footers Secations 10 logo background images */
+
+.top-footer-logo-image{
+    margin-top: 20px;
+}
+
